@@ -1,0 +1,475 @@
+
+/*--------------fonts-------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/*--------------fonts-------*/
+h1,h2,h3,h4,h5,h6,p ,a{
+    font-family: roboto,sans-serif; 
+}
+body {
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+
+}
+:root {
+    --greeen: rgb(20, 219 ,20);
+    --dark-green: rgb(33, 199, 42);
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*------------------navbar-------------------------*/
+.img-resp img{
+    width: 100%;
+    width: 80px;
+}
+.nav-item a{
+    text-transform: uppercase;
+    color: black;
+transition: all 0.3s ease;
+
+}
+.nav-item a:hover{
+    color: var(--greeen);
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    background-color: var(--greeen);
+    color: white;
+    font-weight: 600;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    padding: 8px 13px;
+
+}
+
+.bi-bag-plus{
+    font-size: 30px;
+    color: black;
+}
+.bi-bag-plus:hover{
+    color: var(--greeen);
+}
+
+
+
+.search{
+    border-width: 2px;
+    border-color: var(--greeen);
+    border-style: solid;
+border-right: none;
+    border-radius: 20px 0px 0px 20px;
+    height: 45px;
+    padding-left: 8px;
+}
+
+
+
+/*------------------navbar-------------------------*/
+
+
+/*--------------------------hero section-----------------------------*/
+.main{
+    background: url(/img/m1.jpg)no-repeat;
+    height: auto;
+    background-size: cover;
+    width: auto;
+    
+}
+
+
+.content{
+    padding-top: 40px;
+}
+.content2 h1{
+    font-size: 5rem;
+    font-weight: bold;
+    
+}
+.content2 .para1{
+    color: grey;
+    font-size: 22px;
+}
+
+.divider{
+    background-color: var(--greeen);
+    width: 150px;
+    height: 5px;
+    margin: 16px 0;
+}
+.btn2{
+    background-color: var(--greeen);
+    color: white;
+    padding: 10px 26px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 18px;
+    transition: all 0.45s ease;
+
+
+}
+
+
+.btn3{
+    background-color: transparent;
+    border: solid 2px rgb(20, 219 ,20);
+    padding: 10px 26px;
+    border-radius: 25px;
+}
+.btn3:hover{
+    background-color: var(--greeen);
+}
+.btn2:hover{
+    background-color: var(--dark-green);
+}
+/*--------------------------hero section-----------------------------*/
+
+
+
+
+/*-----------------------------about---------------------*/
+.main2{
+    background: url(/img/abut.jpg) no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    max-width: auto;
+    padding-top: 50px;
+    
+}
+.main2 h1{
+    font-size: 5rem;
+    font-weight: bold;
+    
+}
+.main2 .para1{
+    color: grey;
+    font-size: 22px;
+}
+@media only screen and ( max-width: 700px){
+   
+
+    
+
+}
+/*-----------------------------about---------------------*/
+/*-----------------------services--------------------*/
+.main9{
+    background-color: var(--dark-green);
+    height: 75vh;
+}
+.service-box2{
+    background-color: white;
+    padding: 15px 0px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.icon-service-box .bi-gift{
+    font-size: 35px;
+    color: var(--greeen);
+    padding: 30px 0px;
+}
+.main9-content .divider{
+    background-color: white;
+    margin: 15px auto;
+}
+.service-box2 h3{
+padding: 10px 0px;
+}
+.service-box2 p{
+    color: grey;
+}
+@media only screen and ( max-width: 700px){
+    .main9 {
+        height: auto;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+    }
+    
+    
+
+}
+
+/*-----------------------services--------------------*/
+/*-----------------------product page------------------------*/
+.about p{
+    color: rgb(77, 73, 73);
+
+}
+.main4 h1{
+    color: rgb(51, 48, 48);
+
+}
+.about .divider2{
+    border: solid 3px  rgb(20, 219 ,20);
+}
+
+.product img{
+    max-width: 100%;
+    height: auto;
+}
+.product{
+    margin-bottom: 15px;
+}
+.product h3{
+    font-weight: bold;
+    margin-left: 13px;
+    color: rgb(66, 64, 64);
+}
+.product p{
+    color: grey;
+    margin-left: 13px;
+}
+.bi-star-fill {
+    color: orange;
+    text-align: end;
+}
+.main4{
+    background-color: aliceblue;
+}
+
+.star{
+    text-align: end;
+    margin: 10px;
+}
+
+/*-----------------------product page------------------------*/
+/*--------------------------coupon secton-----------*/
+.coupon-section{
+    background-color: var(--greeen);
+    padding: 50px 0px;
+    
+}
+.coupon-content h3{
+    color: white;
+    font-weight: bold;
+
+}
+
+.coupon-content .bi-cart-plus{
+    font-size: 40px;
+}
+.coupon-btn .btn5{
+    padding: 10px 26px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 18px;
+    transition: all 0.45s ease;
+    background-color: white;
+    color: var(--greeen);
+}
+.coupon-btn .btn5:hover{
+    color: var(--dark-green);
+    background-color: rgb(178, 250, 178);
+}
+@media only screen and ( max-width: 700px){
+    .coupon-content h3{
+        text-align: center;
+        
+    
+    }
+    
+
+}
+
+/*--------------------------coupon secton-----------*/
+/*-----------------------service-products--------------*/
+.bi-truck{
+    font-size: 40px;
+}
+.bi-person-check{
+    font-size: 40px;
+}
+.bi-check-circle{
+    font-size: 40px;
+}
+.bi-credit-card-2-back{
+    font-size: 40px;
+}
+.card-body h5{
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+.card-body p{
+    color: grey;
+    padding-top: 10px;
+}
+ .store .card{
+    border: none;
+    transition: all 0.2s ease;
+
+}
+  .store .card:hover{
+    background-color: var(--greeen);
+    color: white ;
+    
+}
+.store .card:hover p{
+    color: white;
+}
+
+
+/*-----------------------service-products--------------*/
+/*---------------------------new arrival content--------------------*/
+.arrival-content p{
+    color: grey;
+}
+.main6 .card{
+    border: none;
+}
+.main6 h1{
+    font-weight: bolder;
+    color: rgb(102, 88, 88);
+    margin: 20px 0px;
+}
+@media only screen and ( max-width: 700px){
+    .arrival-content{
+    
+        text-align: left;
+        margin-left: 28px;
+    }
+    
+        
+    
+    }
+/*---------------------------new arrival content--------------------*/
+/*----------------------------------contact section-----------------*/
+.contact-section{
+    
+        background: url(/img/contact.jpg)no-repeat;
+        height: auto;
+        background-size: cover;
+        width: 100%;
+        margin-top: 30px;
+        
+    
+}
+.content .divider2{
+    margin: 0px;
+    margin: 10px 0px;
+    text-decoration: white;
+    color: white;
+}
+.icon-box2{
+    width: auto;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    padding: 12px 16px;
+}
+.icon-box2 i{
+    font-size: 25px;
+}
+.address-content p {
+    margin-left: 20px;
+    color: white;
+
+    
+}
+.address-content{
+    margin-top: 20px
+}
+.form-active input:focus{
+    border-color: var(--greeen);
+}
+.text-area{
+    height: 65px;
+}
+.submit-btn .submit-btn1{
+    border: none;
+    background-color: white;
+    color: rgb(90, 85, 85);
+    padding: 7px 55px;
+    border-radius: 20px;
+}
+@media only screen and ( max-width: 700px){
+    .contact-section{
+        height: auto;
+    }
+    .form-space{
+        margin-top: 30px;
+    }
+    
+        
+    
+    }
+
+/*----------------------------------contact section-----------------*/
+/*--------------------------footer-------------*/
+footer{
+    background-color: rgb(48, 47, 47);
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+.col1 p{
+color: var(--greeen);
+display: flex;
+margin: auto 0px;
+}
+.icon-box .icon-box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    margin-right: 8px;
+    border: 1px solid white;
+    border-radius: 48%;
+    flex-wrap: wrap;
+    transition: all 0.4s ease;
+    padding: 5px;
+}
+.icon-box3 i{
+    color: white;
+    font-size: 13px;
+}
+.icon-box .icon-box3:hover{
+    border: none;
+    background-color: var(--greeen);
+}
+@media only screen and ( max-width: 480px){
+    .row1{
+        flex-direction: column;
+        padding:20px  ;
+    }
+    .col1 p{
+        text-align: center;
+    }
+    .icon-box .icon-box3{
+        margin-top: 30px;
+        margin-bottom: 15px;
+        width: 42px;
+        padding: 8px ;
+        transition: all 0.4s ease;
+    }
+    
+        
+    
+    }
+
+/*--------------------------footer-------------*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,387 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black !important;
+    overflow-x:hidden ;
+    
+}
+:root{
+    --yellow: #ff9900 ;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: roboto,serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*-----------------navbar-----------------*/
+.nav-item .nav-link{
+    margin-right: 15px;
+}
+.nav-item{
+    margin-left: 30p;
+}
+.nav-item a:hover{
+    color: var(--yellow);
+}
+.navbar-toggler{
+    background-color: #ff9900 !important;
+}
+.navbar-togger-icon{
+    color: white !important;
+}
+.nav-item a{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.navbar-brand h2{
+    color: var(--yellow);
+}
+.btn1{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 4px 16px;
+    transition: all 0.3s ease;
+}
+.btn1:hover{
+    background-color: #ff9900;
+    border: none;
+}
+/*-----------------navbar-----------------*/
+/*---------------------hero section-------------------*/
+.main2{
+    background: linear-gradient(90deg, black 70%,#ff9900 30% );
+    height: auto;
+    width: auto;
+}
+.hero-content p{
+    font-size: larger;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.hero-content h2{
+    font-weight: bolder;
+    font-size: 48px;
+}
+.hero-content span{
+    color: #ff9900;
+}
+.change-text::after{
+content: "";
+animation: animated 25s infinite linear;
+padding: 18px 0px;
+font-weight: bolder;
+font-size: 48px;
+color: var(--yellow);
+
+
+
+
+}
+.btn2{
+    background-color: #503d22;
+    color: #ff9900;
+    margin: 20px 0px;
+    padding: 7px 26px;
+    border-radius: 5px;
+    border: 2px solid #ff9900;
+    transition: all 0.3s ease;
+}
+.btn2:hover{
+    background-color: white;
+    border: none;
+    color: var(--yellow);
+}
+
+@keyframes animated{
+    0%{ content: "graphics designer";}
+    10%{ content: "web developer";}
+    20%{ content: "video editor";}
+    30%{ content: "worldpress devs";}
+    40%{ content: "digital marketing";}
+    50%{ content: "frontend developer";}
+    60%{ content: "backend developer";}
+    60%{ content: "fullstack enginer";}
+    70%{ content: "UI/UX design";}
+    80%{ content: "data analist";}
+    90%{ content: "content creator";}
+    100%{ content: "product manager";}
+}
+@media only screen and ( max-width: 700px){
+    .main2{
+        background: black;
+    padding-top: 200px;
+    }
+    .hero-content{
+        text-align: center;
+    }
+    
+
+}
+
+/*---------------------hero section-------------------*/
+/*--------------------------about me-------------*/
+.main3{
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.img-bg{
+    background-color: #ff9900;
+    border-radius: 8px;
+}
+.about-content h2,p{
+    color: white;
+    
+}
+.divider1{
+    border: 3px solid #ff9900;
+    height: 0;
+    width: 35%;
+    border-radius: 5px;
+
+}
+.about-content h4{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.about-content span{
+    color: #ff9900;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.btn3{
+    margin-top: 20px ;
+    padding: 10px 26px;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn3:hover{
+    background-color: white;
+    border: none;
+    color: #ff9900;
+}
+
+
+
+/*--------------------------about me-------------*/
+/*-------------------------service---------------*/
+.main4{
+    padding: 80px 0px;
+}
+.service-box i{
+    color: #ff9900;
+    font-size: 55px;
+    
+}
+.service-box h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #503d22;
+}
+.service-box{
+    background-color: white;
+    padding: 5px 40px;
+    border-radius: 10px;
+    transition: all 0.05s ease;
+}
+.service-box:hover{
+    background-color: #ff9900;
+}
+.service-box:hover i{
+    color: white ;
+}
+
+/*-------------------------service---------------*/
+/*---------------------------resume---------------------*/
+.divider-fliud .divider1{
+    width: 100%;
+}
+.divider-fliud h2{
+    color: #ff9900;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.main5{
+    padding: 80px 0px;
+}
+
+.education-wrapper i{
+    font-size: 40px;
+    color: #ff9900;
+}
+.education-wrapper h3{
+    margin-left: 4px ;
+    color: white;
+    font-weight: bold;
+}
+.span-tag i{
+    font-size: 20px;
+    color: #ff9900;
+}
+.span-tag {
+    color: #ff9900;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.service-content h3{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.service-content p{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.divider-bottom .divider1{
+    width: 100%;
+}
+/*---------------------------resume---------------------*/
+/*----------------------my work------------------------------*/
+.thumbnail{
+    border: 3px solid grey;
+    border-radius: 12px;
+    transition: all 0.3s ;
+    margin-top: 25px;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #ff9900a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.overlay-btn{
+    border: none;
+    padding: 6px 18px;
+    color: var(--yellow);
+    background-color: white;
+
+
+border-radius: 5px;
+}
+.img-expand img{
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------------my work------------------------------*/
+/*----------------------contact------------------------------*/
+.contact-form input{
+    border: none;
+    border-bottom: 4px solid #5e3803;
+    background-color: black;
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 8px 0px;
+}
+input::placeholder{
+    color: white !important;
+    
+    
+}
+
+
+input:focus{
+    border: 4px solid #5e3803;
+    outline: none;
+    background-color: black;
+}
+input:active{
+    
+    background-color: black;
+    border: none;
+}
+textarea:focus{
+    outline: none;
+}
+.contact-form textarea{
+    width: 100%;
+    height: 100%;
+    border:  4px solid #5e3803;
+    background: black;
+    color: white;
+}
+.form-btn{
+    width: 100%;
+    height: 100%;
+    border:  4px solid #5e3803;
+    color: #5e3803;
+    background-color: black;
+    padding: 5px 0px;
+}
+.social-icon-wrapper .social-icon{
+margin-right: 20px;
+}
+.social-icon i{
+    color: var(--yellow);
+    font-size: 30px;
+}
+@media only screen and ( max-width: 700px){
+    
+    
+
+}
+/*----------------------contact------------------------------*/
+/*----------------------footer-----------------------------*/
+.main8{
+    background-color: var(--yellow);
+    margin-top: 50px;
+    padding: 20px 0px 0px 0px;
+}
+.footer-sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.social-icon2 i{
+    font-size: 30px;
+    color: white;
+    margin-right: 15px;
+}
+.footer span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer a{
+    color: rgb(4, 4, 250);
+    font-size: 17px;
+    font-weight: bolder;
+}
+@media only screen and ( max-width: 700px){
+  footer{
+    background-color: #ff9900;
+  }
+    
+
+}
+/*----------------------footer-----------------------------*/
